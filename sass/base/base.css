@@ -1,0 +1,11 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-top: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}/*# sourceMappingURL=base.css.map */
