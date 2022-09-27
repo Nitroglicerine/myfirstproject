@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack serve",
-    "build-dev": "webpack",
-    "build-prod": "webpack --node-env=production",
+    "dev": "webpack serve --config ./config/webpack/webpack.dev.js",
+    "build": "webpack --config ./config/webpack/webpack.prod.js",
     "clear": "rd /s /q dist"
   },
   "repository": {
@@ -20,6 +19,7 @@
     "url": "https://github.com/Nitroglicerine/myfirstproject/issues"
   },
   "homepage": "https://github.com/Nitroglicerine/myfirstproject#readme",
+  "type": "module",
   "dependencies": {
     "add": "^2.0.6",
     "cli": "^1.0.1",
@@ -28,9 +28,14 @@
     "yarn": "^1.22.19"
   },
   "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.1",
+    "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.0",
-    "webpack": "^5.74.0",
+    "mini-css-extract-plugin": "^2.6.1",
+    "sass": "^1.55.0",
+    "sass-loader": "^13.0.2",
     "webpack-cli": "^4.10.0",
-    "webpack-dev-server": "^4.11.0"
+    "webpack-dev-server": "^4.11.1"
   }
 }
