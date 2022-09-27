@@ -21,9 +21,11 @@
   },
   "homepage": "https://github.com/Nitroglicerine/myfirstproject#readme",
   "dependencies": {
+    "add": "^2.0.6",
     "cli": "^1.0.1",
     "d": "^1.0.1",
-    "px2rem-loader": "^0.1.9"
+    "px2rem-loader": "^0.1.9",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
     "html-webpack-plugin": "^5.5.0",

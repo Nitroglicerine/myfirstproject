@@ -15,4 +15,9 @@ output:{
 },
 plugins: [new HtmlWebpackPlugin ({Template: path.resolve(__dirname,'index.html')}),
 ],
+devServer: {
+    static: {
+    directory: path.join(__dirname, '/dist/index.html'), },
+    compress: true,
+    port: 8080,}
 }
