@@ -1,15 +1,21 @@
 .nav {
-padding-top: 35px;
-padding-bottom: 33px;}
+  padding-top: 35px;
+  padding-bottom: 33px;
+}
 
 .nav__row {
-display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.logo {display: flex;
-    align-items: center;
-    .icon__logo{margin: right 15px;}
+.logo {
+  display: flex;
+  align-items: center;
+
+  .icon__logo {
+    margin-right: 15px;
+  }
 }
-.navigation {background: #000;
+.navigation {
+  background: #000;
 }

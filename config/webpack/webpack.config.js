@@ -55,7 +55,7 @@ export default {
         new HtmlWebpackPlugin({
             template: './src/index.html',
             // favicon: './src/assets/favicon.png',
-            // inject: 'body',
+            inject: 'body',
         })
 	]
 };
