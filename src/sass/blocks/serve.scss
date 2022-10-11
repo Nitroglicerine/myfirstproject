@@ -1,0 +1,17 @@
+.serve {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #f5f6fa;
+
+}
+.serve__heading {
+    text-align: center;
+    margin-bottom: 45px;
+    .title{margin-bottom: 10px;}
+}
+.serve__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+   column-gap: 30px;
+}

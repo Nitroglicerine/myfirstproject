@@ -3,17 +3,21 @@
 }
 .objects__row {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    overflow-x: hidden;
+    @media(max-width:1495px){justify-content: flex-end;}
 }
 .objects__img {display: flex;
     justify-content: flex-end;
     align-items: flex-start;
 }
 .graf {margin-top: 20px;}
-.objects__text {max-width: 543px;
-    padding-left: 181px;
-
+.objects__text {
+    max-width: 543px;
+    padding-left: 90px;
+    padding-right: 90px;
+flex-shrink: 0;
 }
 .objects__title{margin-bottom: 20px; }
 .objects__button{margin-top: 40px;}

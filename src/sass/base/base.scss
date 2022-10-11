@@ -1,14 +1,25 @@
 //base//
-body{font-family:'Poppins',sans-serif; font-size: 16px;
-    line-height: 1.6785;
-color: #323232;}
-.container {max-width: 1140px;
-margin-left: auto;
-margin-top: auto;
-padding-left: 15px;
-padding-right: 15px;}
-.none{display: none;}
-.title{font-size: 42px;
-    font-weight: 700;
-    line-height: 1.476532;
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.6785;
+  color: #323232;
+}
+.container {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-top: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.container-fluid {
+  width: 100%;
+}
+.none {
+  display: none;
+}
+.title {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.476532;
 }
