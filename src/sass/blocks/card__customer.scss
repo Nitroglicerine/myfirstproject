@@ -9,13 +9,31 @@
   align-items: center;
   text-align: center;
   transition: color 0.2s ease-in;
-  &:hover{background-color: $accent;
-color:#fff; transition: background-color 0.2s ease-in;
-.button{background-color: #fff;transition: background-color 0.2s ease-in;
-color: $accent-hover;}}
+  .card-customer__icon {
+    fill: $accent;
+    }
+  &:hover {
+    background-color: $accent;
+    color: #fff;
+    transition: background-color 0.2s ease-in;
+    .card-customer__icon{fill: #fff; margin-bottom: 15px;
+      transition: fill 0.2s ease-in;}
+      .card-costumer__text,.card-customer__title{color: #fff;
+        transition: color 0.2s ease-in;}
+    .button {
+      background-color: #fff;
+      transition: background-color 0.2s ease-in;
+      color: $accent-hover;
+    }
+  }
+  
 }
-.card-costumer__text{margin-bottom: 25px;}
+.card-costumer__text {
+  margin-bottom: 25px;
+  color: black;
+ 
+}
 .card-customer__title {
-}
-.button {
+  color: black;
+
 }

@@ -23,3 +23,11 @@ body {
   font-weight: 700;
   line-height: 1.476532;
 }
+.visually-hidden{opacity: 0;
+visibility: hidden; 
+width: 0px;
+height: 0px;
+display: block;
+margin-left: -1000px;
+background: transparent;
+font-size: 0;}
