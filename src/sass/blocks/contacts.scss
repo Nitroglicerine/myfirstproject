@@ -1,0 +1,43 @@
+.contacts {
+  position: relative;
+  
+  padding-top: 200px;
+  background-image: url("./../src/images/footer/Bg.svg");
+background-repeat: no-repeat;
+background-size: cover;
+  padding-bottom: 55px;
+  color:white;
+  &:before{
+    position: absolute;
+   bottom:0;
+   left: 35%;
+    content: "";
+display: block;
+width: 743px;
+height: 372px;
+background-image: url("./../src/images/footer/bottom\ oval.svg");
+background-size: initial;}
+
+&:after{
+  content: "";
+    position:absolute;
+   bottom: 0;
+    left: 45%;
+    margin-left: 79px;
+   width: 478px;
+   height: 547px;
+background-image: url("./../src/images/footer/bottom.png");
+background-size: cover;
+}
+}
+
+
+.contacts__info {max-width:360px;
+}
+.contact__text {
+  margin-bottom: 30px;
+  max-width:342px;
+}
+.contact__title {
+  margin-bottom: 15px;
+}
